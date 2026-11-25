@@ -1,5 +1,5 @@
 
-"""Ollama client for the NEXUS multi-agent BI system."""
+"""Ollama client for the ARGUS multi-agent BI system."""
 
 import json
 import os

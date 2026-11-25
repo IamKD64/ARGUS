@@ -36,7 +36,7 @@ A2A_COLOR = "#E8A0B4"  # rose
 # ============================================================
 
 st.set_page_config(
-    page_title="Nexus | Multi-agent analytics",
+    page_title="ARGUS | Multi-agent analytics",
     page_icon=":material/hub:",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -541,7 +541,7 @@ with st.sidebar:
     <circle cx="15" cy="15" r="4" fill="{ANALYST}"/>
     </svg>
     <div>
-    <div class="brand-name">Nexus</div>
+    <div class="brand-name">ARGUS</div>
     <div class="brand-sub">Multi-agent analytics</div>
     </div>
     </div>
@@ -904,6 +904,6 @@ elif page == "Execution Inspector":
 
 st.divider()
 html(
-    '<div class="foot">Nexus runs locally with LangGraph, MCP, A2A '
+    '<div class="foot">ARGUS runs locally with LangGraph, MCP, A2A '
     'and Ollama.</div>'
 )
